@@ -58,7 +58,7 @@ def query_generator(question, is_finetuned=finetune):
 
 st.title('SQL Query Assistant')
 #insert a image
-st.image('streamlit/image.png', width=200)
+st.image('streamlit/image.png', width=500)
 question = st.text_input('Ask a question:')
 
 if st.button('Submit'):
